@@ -20,7 +20,7 @@ The Real Estate Website is a full-stack application designed to help users searc
 - **Frontend:**
   - React
   - Redux
-  - CSS
+  - SCSS
   - Axios
 
 - **Backend:**
