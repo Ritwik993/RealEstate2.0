@@ -44,7 +44,7 @@ function NewPostPage() {
           restaurant: parseInt(inputs.restaurant),
         },
       });
-      navigate("/"+res.data.id)
+      navigate("/" + res.data.id)
     } catch (err) {
       console.log(err);
       setError(error);
@@ -161,15 +161,13 @@ function NewPostPage() {
         {images.map((image, index) => (
           <img src={image} key={index} alt="" />
         ))}
-        <UploadWidget
-          uwConfig={{
-            multiple: true,
-            cloudName: "lamadev",
-            uploadPreset: "estate",
-            folder: "posts",
-          }}
-          setState={setImages}
-        />
+        <UploadWidget uwConfig={{
+          cloudName: "dckua3qdp",
+          uploadPreset: "estate",
+          multiple: true,
+          folder: "posts"
+        }
+        } setState={setImages} />
       </div>
     </div>
   );

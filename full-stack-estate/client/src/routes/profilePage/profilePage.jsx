@@ -82,6 +82,7 @@ function ProfilePage() {
               {(chatResponse) => <Chat chats={chatResponse.data}/>}
             </Await>
           </Suspense>
+          
         </div>
       </div>
     </div>
