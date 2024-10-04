@@ -1,6 +1,5 @@
 # Real Estate Website
 
-![Real Estate Website](path/to/your/screenshot.png)  <!-- Add a screenshot of your project -->
 
 ## Overview
 
