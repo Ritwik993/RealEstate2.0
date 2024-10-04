@@ -48,5 +48,5 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/real-estate-website.git
-   cd real-estate-website
+   git clone https://github.com/Ritwik993/RealEstate2.0.git
+   cd full-stack-estate
