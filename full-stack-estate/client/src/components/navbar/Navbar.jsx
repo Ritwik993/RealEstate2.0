@@ -54,8 +54,8 @@ function Navbar() {
         <div className={open ? "menu active" : "menu"}>
           <Link to="/">Home</Link>
           <Link to="/">About</Link>
-          <Link to="/">Contact</Link>
-          <Link to="/">Agents</Link>
+          <Link to="/profile">Profile</Link>
+          <Link to="/list">List</Link>
           <Link to="/login">Sign in</Link>
           <Link to="/register">Sign up</Link>
         </div>
